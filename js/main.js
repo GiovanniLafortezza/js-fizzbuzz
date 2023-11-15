@@ -9,6 +9,7 @@
 for( i = 1; i <= 100; i++) {
     
     if( i % 3 == 0 && i % 5 == 0) {
+        //se i numeri sono sia multipli di 3 e di 5 stampare FizzBuzz
         console.log("FizzBuzz");
     }
     // Istruzione condizionale if per i multipli di 3
@@ -19,7 +20,7 @@ for( i = 1; i <= 100; i++) {
         //se il numero è un multiplo di 5 stampa in console Buzz
     } else if( i % 5 == 0) {
         console.log(" Buzz");
-        //se i numeri sono sia multipli di 3 e di 5 stampare FizzBuzz
+        //altrimenti stampa solo il numero
     } else {
         console.log(i);
     }
